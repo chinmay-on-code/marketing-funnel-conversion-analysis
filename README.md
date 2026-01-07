@@ -1,11 +1,11 @@
 # marketing-funnel-conversion-analysis
 End-to-end marketing funnel and conversion analysis using event-level e-commerce data to identify drop-off points and optimization opportunities with SQL and Python.
-📌 Project Overview
+## 📌 Project Overview
 
 This project analyzes user behavior across a marketing funnel to identify conversion drop-off points and uncover data-driven optimization opportunities.
 The analysis focuses on how users progress from product views → add to cart → purchase, using event-level data similar to real-world product analytics tools (GA4, Mixpanel).
 
-🎯 Business Objective
+## 🎯 Business Objective
 
 The business wants to understand user behavior across the marketing funnel to identify drop-off points, improve conversion rates, and optimize acquisition and engagement strategies.
 
@@ -17,7 +17,7 @@ Understand conversion efficiency at each stage
 
 Prioritize high-impact optimization actions
 
-🧠 Funnel Definition
+## 🧠 Funnel Definition
 Funnel Stage	User Action
 Visit	Product View
 Consideration	Add to Cart
@@ -25,7 +25,7 @@ Conversion	Purchase
 
 Funnel stages were defined based on increasing levels of user intent, aligned with standard e-commerce behavior.
 
-📂 Dataset Description
+## 📂 Dataset Description
 
 Dataset: E-commerce Events History (Cosmetics Shop)
 
@@ -45,7 +45,7 @@ category – Product category
 
 price – Product price
 
-🧹 Data Cleaning & Preparation
+## 🧹 Data Cleaning & Preparation
 
 Key preparation steps included:
 
@@ -59,7 +59,7 @@ Creating derived fields for segmentation (price bands, time-based features)
 
 These steps ensure accurate and reliable funnel metrics.
 
-📊 Analysis Performed
+## 📊 Analysis Performed
 1. Funnel Conversion Analysis
 
 Calculated unique users at each funnel stage
@@ -88,7 +88,7 @@ Analyzed how long users take to convert from view to purchase
 
 Identified fast vs slow converting user groups
 
-🔍 Key Insights
+## 🔍 Key Insights
 
 A large proportion of users drop off before completing purchases
 
@@ -100,7 +100,7 @@ Certain product categories outperform others in conversion
 
 Conversion speed varies significantly across users
 
-✅ Recommendations
+## ✅ Recommendations
 
 Based on the analysis, the following actions are recommended:
 
@@ -122,7 +122,7 @@ Introduce bundles or limited-time discounts
 
 Test pricing strategies for high-friction products
 
-📈 Business Impact
+## 📈 Business Impact
 
 This analysis enables the business to:
 
@@ -132,7 +132,7 @@ Reduce funnel leakage at critical stages
 
 Optimize marketing and product decisions using data
 
-🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 
 SQL – Funnel aggregation and segmentation
 
